@@ -1,0 +1,6 @@
+{
+  "name": "local-package",
+  "private": true,
+  "type": "module",
+  "exports": "./index.js"
+}

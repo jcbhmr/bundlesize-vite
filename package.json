@@ -1,0 +1,31 @@
+{
+  "name": "vite-size",
+  "version": "0.1.0",
+  "description": "⚡ See how much a package weighs when imported & bundled using Vite",
+  "homepage": "https://github.com/jcbhmr/vite-size#readme",
+  "bugs": "https://github.com/jcbhmr/vite-size/issues",
+  "repository": "github:jcbhmr/vite-size",
+  "author": "Jacob Hummer <jcbhmr@outlook.com> (https://jcbhmr.me/)",
+  "type": "module",
+  "exports": null,
+  "bin": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "lint": "prettier -w .",
+    "test": "glob --cmd=\"node --test\" \"**/*.test.js\""
+  },
+  "dependencies": {
+    "brotli-size": "^4.0.0",
+    "execa": "^7.2.0",
+    "gzip-size": "^7.0.0",
+    "pretty-bytes": "^6.1.1",
+    "read-package-json-fast": "^3.0.2",
+    "ts-dedent": "^2.2.0"
+  },
+  "devDependencies": {
+    "glob": "^10.3.3",
+    "prettier": "^3.0.1"
+  }
+}
